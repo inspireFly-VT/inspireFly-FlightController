@@ -4059,6 +4059,12 @@
 		(uuid "929c1c00-ba82-4b74-a62a-3bc83cfd33ff")
 	)
 	(junction
+		(at 124.46 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "985df80a-21e6-47d7-87e1-38410149894c")
+	)
+	(junction
 		(at 105.41 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4105,12 +4111,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd732cb4-3929-4456-9057-f954a98445d8")
-	)
-	(junction
-		(at 148.59 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e76d8b31-add1-4b80-b148-d4b5b78107b5")
 	)
 	(junction
 		(at 26.67 50.8)
@@ -4244,6 +4244,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 168.91) (xy 152.4 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b0ec5bb-e489-4d3c-a698-32c7b63711d6")
+	)
+	(wire
+		(pts
 			(xy 36.83 62.23) (xy 36.83 59.69)
 		)
 		(stroke
@@ -4281,16 +4291,6 @@
 			(type default)
 		)
 		(uuid "308bc7cb-1b8f-4a43-8a1f-de133e83d23e")
-	)
-	(wire
-		(pts
-			(xy 146.05 167.64) (xy 146.05 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3149a647-0221-43ca-a2c3-d74cb67d258f")
 	)
 	(wire
 		(pts
@@ -4361,6 +4361,16 @@
 			(type default)
 		)
 		(uuid "4764c610-e3de-4dda-bc71-9d3989d18c4e")
+	)
+	(wire
+		(pts
+			(xy 152.4 165.1) (xy 152.4 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "505cad96-e3c1-4c53-a25b-8a73d10bb0a7")
 	)
 	(wire
 		(pts
@@ -4521,16 +4531,6 @@
 			(type default)
 		)
 		(uuid "83da3810-95d5-425f-9e2e-2e83356063d4")
-	)
-	(wire
-		(pts
-			(xy 152.4 165.1) (xy 152.4 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85f67028-ad3f-46c4-b1c1-14c81537264a")
 	)
 	(wire
 		(pts
@@ -4764,7 +4764,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 165.1) (xy 133.35 165.1)
+			(xy 114.3 165.1) (xy 124.46 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4794,16 +4794,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 167.64) (xy 148.59 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c42a025e-3aad-4775-ac34-1b347926ae44")
-	)
-	(wire
-		(pts
 			(xy 36.83 62.23) (xy 36.83 63.5)
 		)
 		(stroke
@@ -4811,6 +4801,16 @@
 			(type default)
 		)
 		(uuid "ca7626d8-a74e-4b47-a899-904fbcc5a33c")
+	)
+	(wire
+		(pts
+			(xy 124.46 165.1) (xy 133.35 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd4fedf8-79e9-4616-acdb-65d95143ea07")
 	)
 	(wire
 		(pts
@@ -4881,16 +4881,6 @@
 			(type default)
 		)
 		(uuid "df15ddb7-7ea2-4783-a8f1-46d7f87c0e01")
-	)
-	(wire
-		(pts
-			(xy 146.05 168.91) (xy 119.38 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfc7f4e0-f15e-4f34-94a1-0030b840c96a")
 	)
 	(wire
 		(pts
@@ -4971,16 +4961,6 @@
 			(type default)
 		)
 		(uuid "fbd8a348-329f-4e7b-9c16-6bcef22ba63f")
-	)
-	(wire
-		(pts
-			(xy 148.59 167.64) (xy 146.05 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbf476cd-4b69-499f-98ef-88a00d0af0c3")
 	)
 	(wire
 		(pts
@@ -5799,75 +5779,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 148.59 171.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2cd622f5-a5d4-4b75-9d67-22dd4a11803f")
-		(property "Reference" "C14"
-			(at 144.526 171.704 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22pF"
-			(at 144.78 170.1801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.6248 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 148.59 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae491a62-3d87-4466-902b-08ba9050df9f")
-		)
-		(pin "2"
-			(uuid "1e06d4ff-6d2c-49b5-b374-e6e1bed79dcb")
-		)
-		(instances
-			(project "inspireFly-flightController"
-				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "flightController:STM32U595VITx")
 		(at 91.44 106.68 0)
 		(unit 1)
@@ -6499,6 +6410,72 @@
 			(project ""
 				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 157.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a2befb7-3e4a-4679-ad65-89eadb77fe69")
+		(property "Reference" "#PWR014"
+			(at 124.46 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e82ab66-8d1d-4671-986e-06873ce00485")
+		)
+		(instances
+			(project ""
+				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7474,7 +7451,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "98f41334-be72-451b-a0f2-fcd99702e334")
 		(property "Reference" "Y1"
 			(at 138.43 157.48 0)
@@ -7485,7 +7461,7 @@
 			)
 		)
 		(property "Value" "ABS07-32.768KHZ-T"
-			(at 138.43 160.02 0)
+			(at 138.176 159.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8048,72 +8024,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 148.59 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd3d880b-e34e-45ab-8584-8ef78c144f43")
-		(property "Reference" "#PWR014"
-			(at 148.59 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 148.59 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "378db4bf-a544-481c-98c9-fcc0f173f5fa")
-		)
-		(instances
-			(project "inspireFly-flightController"
-				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 129.54 25.4 0)
 		(unit 1)
@@ -8311,6 +8221,75 @@
 			(project ""
 				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 124.46 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0b75ffc-dec7-40f1-b6a6-9ad5315c5ea0")
+		(property "Reference" "C14"
+			(at 117.602 159.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22pF"
+			(at 117.348 162.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.4252 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 124.46 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f766ebb1-859e-4ca6-a55e-633b8018fc66")
+		)
+		(pin "1"
+			(uuid "9cbac4ae-1078-4a7c-8462-3a925a897227")
+		)
+		(instances
+			(project ""
+				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
+					(reference "C14")
 					(unit 1)
 				)
 			)
