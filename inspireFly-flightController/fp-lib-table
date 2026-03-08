@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "inspireFly-EPS-footprints")(type "KiCad")(uri "C:/Users/dzw73/Documents/InspireFly/inspireFly-EPS/inspireFly-EPS-footprints.pretty")(options "")(descr ""))
+  (lib (name "inspirefly")(type "KiCad")(uri "C:/Users/dzw73/Documents/InspireFly/inspireFly-pocketqubeBoards/MainBoard/inspirefly.pretty")(options "")(descr ""))
+)
