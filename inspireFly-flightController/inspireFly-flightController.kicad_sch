@@ -317,156 +317,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Open_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_1"
-				(arc
-					(start -1.524 1.27)
-					(mid 0 1.778)
-					(end 1.524 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -4173,12 +4023,6 @@
 		(uuid "48fb434f-0945-4250-aac1-72efd3ab9df9")
 	)
 	(junction
-		(at 200.66 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f91880f-4a60-4e5c-bc18-a59dc59de382")
-	)
-	(junction
 		(at 93.98 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4263,16 +4107,10 @@
 		(uuid "bd732cb4-3929-4456-9057-f954a98445d8")
 	)
 	(junction
-		(at 190.5 66.04)
+		(at 148.59 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d27efddd-c9b6-468c-8278-688465b7d7a1")
-	)
-	(junction
-		(at 125.73 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9311068-cbb2-415d-b9e5-2ac16e58472c")
+		(uuid "e76d8b31-add1-4b80-b148-d4b5b78107b5")
 	)
 	(junction
 		(at 26.67 50.8)
@@ -4323,16 +4161,6 @@
 			(type default)
 		)
 		(uuid "0277f761-f785-4232-954d-3265286fd4c9")
-	)
-	(wire
-		(pts
-			(xy 200.66 66.04) (xy 210.82 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03333c97-07a9-4186-9fd0-41ef84c51a3a")
 	)
 	(wire
 		(pts
@@ -4413,16 +4241,6 @@
 			(type default)
 		)
 		(uuid "194eca98-de3f-470e-9795-20d434ffb7fd")
-	)
-	(wire
-		(pts
-			(xy 187.96 66.04) (xy 190.5 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20c805c0-0835-4110-8c1e-48dfb183d159")
 	)
 	(wire
 		(pts
@@ -4826,16 +4644,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 66.04) (xy 191.77 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9db529f1-f6b0-458e-b83e-25dc71686d97")
-	)
-	(wire
-		(pts
 			(xy 148.59 165.1) (xy 152.4 165.1)
 		)
 		(stroke
@@ -4956,7 +4764,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 165.1) (xy 125.73 165.1)
+			(xy 114.3 165.1) (xy 133.35 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4986,7 +4794,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 167.64) (xy 152.4 167.64)
+			(xy 152.4 167.64) (xy 148.59 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5033,16 +4841,6 @@
 			(type default)
 		)
 		(uuid "d34220fa-085c-4500-8dca-1add6350f077")
-	)
-	(wire
-		(pts
-			(xy 125.73 165.1) (xy 133.35 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3be3b5b-0aaf-445f-9d4c-9f4484093d5e")
 	)
 	(wire
 		(pts
@@ -5176,13 +4974,13 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 66.04) (xy 200.66 66.04)
+			(xy 148.59 167.64) (xy 146.05 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc6539a6-1aea-428d-a839-17f0487a6c5d")
+		(uuid "fbf476cd-4b69-499f-98ef-88a00d0af0c3")
 	)
 	(wire
 		(pts
@@ -5193,6 +4991,28 @@
 			(type default)
 		)
 		(uuid "fd2065cd-cc09-47d6-aa19-4996a3ddd6ec")
+	)
+	(global_label "DEBUG_LPUART_TX"
+		(shape input)
+		(at 114.3 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "050d8ec0-c94b-40bf-aa0f-a06b587d505c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.6418 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "NRST"
 		(shape input)
@@ -5251,28 +5071,6 @@
 		(uuid "5a2b937d-dbb5-45bb-9e85-cfa5ec46d1c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 243.9828 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DEBUG_LPUART_TX"
-		(shape input)
-		(at 114.3 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7775df01-382a-4200-b2c4-e31f4b71fe39")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.6418 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5394,6 +5192,28 @@
 	)
 	(global_label "DEBUG_LPUART_RX"
 		(shape input)
+		(at 114.3 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bcd3b3b5-b0c9-4dbf-8d6b-2bfce8aae973")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.9442 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DEBUG_LPUART_RX"
+		(shape input)
 		(at 236.22 68.58 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5432,28 +5252,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DEBUG_LPUART_RX"
-		(shape input)
-		(at 114.3 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c3ae48ee-256e-4ca3-9570-20b0157ab0fb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.9442 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5753,7 +5551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" ""
 			(at 148.2852 31.75 0)
 			(effects
 				(font
@@ -5935,7 +5733,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 66.04 270)
+		(at 210.82 66.04 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5944,7 +5742,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a92d437-367a-4564-947b-e649d3e8bf3e")
 		(property "Reference" "#PWR018"
-			(at 181.61 66.04 0)
+			(at 204.47 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5953,7 +5751,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.15 66.0399 90)
+			(at 207.01 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5962,7 +5760,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 66.04 0)
+			(at 210.82 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5971,7 +5769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 66.04 0)
+			(at 210.82 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5980,7 +5778,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 66.04 0)
+			(at 210.82 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6002,7 +5800,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 125.73 161.29 0)
+		(at 148.59 171.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6010,7 +5808,7 @@
 		(dnp no)
 		(uuid "2cd622f5-a5d4-4b75-9d67-22dd4a11803f")
 		(property "Reference" "C14"
-			(at 129.794 161.036 0)
+			(at 144.526 171.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6019,7 +5817,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 129.54 162.5599 0)
+			(at 144.78 170.1801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6027,8 +5825,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 126.6952 165.1 0)
+		(property "Footprint" ""
+			(at 147.6248 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6037,7 +5835,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 161.29 0)
+			(at 148.59 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6046,7 +5844,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 125.73 161.29 0)
+			(at 148.59 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6088,7 +5886,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32U595VITx"
+		(property "Value" "STM32U595VJT6"
 			(at 96.1233 177.8 0)
 			(effects
 				(font
@@ -6732,7 +6530,7 @@
 				)
 			)
 		)
-		(property "Footprint" "inspirefly:SAMTEC_FTSH-107-01-L-DV-K-A"
+		(property "Footprint" "FTSH-107-01-L-DV-K-A:SAMTEC_FTSH-107-01-L-DV-K-A"
 			(at 223.52 60.96 0)
 			(effects
 				(font
@@ -7013,7 +6811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" ""
 			(at 42.926 77.724 90)
 			(effects
 				(font
@@ -7080,7 +6878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" ""
 			(at 63.5 153.9748 0)
 			(effects
 				(font
@@ -7187,74 +6985,6 @@
 			(project "inspireFly-flightController"
 				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 195.58 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e42efed-50d6-469b-9582-f10243aaff7e")
-		(property "Reference" "JP2"
-			(at 195.58 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND_DETECT"
-			(at 195.58 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "inspirefly:SmallJumper"
-			(at 195.58 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 195.58 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d422802e-0ee8-4c36-a59b-3f7aa9a67e70")
-		)
-		(pin "2"
-			(uuid "bc714f4d-e9ec-433e-bc52-979b0b75c7eb")
-		)
-		(instances
-			(project "inspireFly-flightController"
-				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
-					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -7669,6 +7399,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 31.75 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95e7e211-ac24-4d28-9942-21fb6a8a13d0")
+		(property "Reference" "SW1"
+			(at 31.75 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 31.75 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 31.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54023255-3d45-43d1-bd74-5f104f8aa1d5")
+		)
+		(pin "2"
+			(uuid "68a9028b-a72d-4410-ba0c-d6caa7379dd7")
+		)
+		(instances
+			(project ""
+				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "flightController:ABS07-32.768KHZ-T")
 		(at 138.43 165.1 0)
 		(unit 1)
@@ -7694,7 +7492,7 @@
 				)
 			)
 		)
-		(property "Footprint" "inspirefly:XTAL_ABS07-32.768KHZ-T"
+		(property "Footprint" "ABS07-32.768KHZ-T:XTAL_ABS07-32.768KHZ-T"
 			(at 138.43 165.1 0)
 			(effects
 				(font
@@ -8184,74 +7982,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 31.75 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cfc2b30d-a798-425b-b759-03016d78b98f")
-		(property "Reference" "SW1"
-			(at 31.75 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 31.75 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "inspireFly-EPS-footprints:SW_PTS810_SJM_250_SMTR_LFS"
-			(at 31.75 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 31.75 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49eb7b8d-b59c-44fc-a34f-6728c9c1a24d")
-		)
-		(pin "2"
-			(uuid "4d44bd78-adcc-493e-80a9-e843741851fe")
-		)
-		(instances
-			(project "inspireFly-flightController"
-				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 200.66 36.83 180)
 		(unit 1)
@@ -8319,7 +8049,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.73 157.48 180)
+		(at 148.59 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8328,7 +8058,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd3d880b-e34e-45ab-8584-8ef78c144f43")
 		(property "Reference" "#PWR014"
-			(at 125.73 151.13 0)
+			(at 148.59 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8337,7 +8067,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 152.4 0)
+			(at 148.59 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8345,7 +8075,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 157.48 0)
+			(at 148.59 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8354,7 +8084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 157.48 0)
+			(at 148.59 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8363,7 +8093,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 157.48 0)
+			(at 148.59 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8410,7 +8140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" ""
 			(at 130.5052 29.21 0)
 			(effects
 				(font
@@ -8544,7 +8274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" ""
 			(at 149.5552 165.1 0)
 			(effects
 				(font
