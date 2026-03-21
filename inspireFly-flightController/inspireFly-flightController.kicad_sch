@@ -5638,7 +5638,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 148.2852 31.75 0)
 			(effects
 				(font
@@ -6880,7 +6880,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FTSH-107-01-L-DV-K-A:SAMTEC_FTSH-107-01-L-DV-K-A"
+		(property "Footprint" "inspirefly:SAMTEC_FTSH-107-01-L-DV-K-A"
 			(at 223.52 60.96 0)
 			(effects
 				(font
@@ -7161,7 +7161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 42.926 77.724 90)
 			(effects
 				(font
@@ -7228,7 +7228,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 63.5 153.9748 0)
 			(effects
 				(font
@@ -7907,7 +7907,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "inspirefly:SW_TL1015AF160QG"
 			(at 31.75 67.31 0)
 			(effects
 				(font
@@ -7974,7 +7974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ABS07-32.768KHZ-T:XTAL_ABS07-32.768KHZ-T"
+		(property "Footprint" "inspirefly:XTAL_ABS07-32.768KHZ-T"
 			(at 138.43 165.1 0)
 			(effects
 				(font
@@ -8149,7 +8149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "inspireFly-EPS-footprints:SW_PTS810_SJM_250_SMTR_LFS"
+		(property "Footprint" "inspirefly:SW_TL1015AF160QG"
 			(at 220.98 34.29 0)
 			(effects
 				(font
@@ -8689,7 +8689,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 130.5052 29.21 0)
 			(effects
 				(font
@@ -8823,7 +8823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 149.5552 165.1 0)
 			(effects
 				(font
@@ -8892,7 +8892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 125.4252 165.1 0)
 			(effects
 				(font
