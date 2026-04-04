@@ -642,16 +642,16 @@
       {
         "filename": "inspireFly-flightController.kicad_sch",
         "name": "inspireFly-flightController",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "7e6c7bc0-1a4e-437f-8207-dca0e7985164"
       }
     ],
-    "used_designators": "Y2",
+    "used_designators": "Y2,#PWR23-28,#PWR31-33,C15-18,C22,J2,R10,U2,U5",
     "variants": []
   },
   "sheets": [
     [
       "7e6c7bc0-1a4e-437f-8207-dca0e7985164",
-      "Root"
+      "inspireFly-flightController"
     ]
   ],
   "text_variables": {},
