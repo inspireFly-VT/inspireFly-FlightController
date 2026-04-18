@@ -160,6 +160,162 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -4838,18 +4994,6 @@
 		)
 	)
 	(rectangle
-		(start 391.16 57.15)
-		(end 391.16 57.15)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "936b5a4d-c01c-40b4-a9d8-8540e77d085b")
-	)
-	(rectangle
 		(start 12.7 11.43)
 		(end 170.18 191.77)
 		(stroke
@@ -4863,7 +5007,7 @@
 	)
 	(rectangle
 		(start 265.43 12.7)
-		(end 389.89 85.09)
+		(end 416.56 85.09)
 		(stroke
 			(width 0)
 			(type default)
@@ -4926,6 +5070,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24187424-3f7c-434c-9176-f479c4aef483")
+	)
+	(junction
+		(at 402.59 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "267cc68e-e748-4eeb-b84c-74b6b3750875")
 	)
 	(junction
 		(at 97.79 30.48)
@@ -4994,6 +5144,12 @@
 		(uuid "929c1c00-ba82-4b74-a62a-3bc83cfd33ff")
 	)
 	(junction
+		(at 387.35 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "934ae7ff-6d08-4458-8806-6d7df6630418")
+	)
+	(junction
 		(at 124.46 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5040,12 +5196,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb522fd0-55b8-4aba-be9c-458a60fd908a")
-	)
-	(junction
-		(at 365.76 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc1048be-1424-4fb6-9d9c-44d42272376e")
 	)
 	(junction
 		(at 36.83 62.23)
@@ -5118,10 +5268,6 @@
 	(no_connect
 		(at 236.22 53.34)
 		(uuid "ad108ba0-d2ce-4830-a54e-d8f609951ac6")
-	)
-	(no_connect
-		(at 363.22 63.5)
-		(uuid "bbac46d6-3d82-459f-acbe-3d38114e905c")
 	)
 	(no_connect
 		(at 210.82 53.34)
@@ -5375,6 +5521,16 @@
 	)
 	(wire
 		(pts
+			(xy 387.35 63.5) (xy 388.62 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45c7fa02-cbc0-4835-b116-770c6c6eabf1")
+	)
+	(wire
+		(pts
 			(xy 137.16 50.8) (xy 137.16 53.34)
 		)
 		(stroke
@@ -5462,6 +5618,16 @@
 			(type default)
 		)
 		(uuid "5c78c4fa-03a5-40fa-bba4-b6e1649c0ed8")
+	)
+	(wire
+		(pts
+			(xy 398.78 63.5) (xy 402.59 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cbed35b-4475-4f04-a2a2-58c47805b9c9")
 	)
 	(wire
 		(pts
@@ -5565,6 +5731,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 59.69) (xy 402.59 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e9e295a-b178-4814-a762-b1cdf3fbcfe0")
+	)
+	(wire
+		(pts
 			(xy 311.15 35.56) (xy 314.96 35.56)
 		)
 		(stroke
@@ -5635,6 +5811,16 @@
 	)
 	(wire
 		(pts
+			(xy 402.59 58.42) (xy 402.59 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88248112-4409-41c4-b24b-3f1f410372a3")
+	)
+	(wire
+		(pts
 			(xy 113.03 21.59) (xy 119.38 21.59)
 		)
 		(stroke
@@ -5665,6 +5851,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 60.96) (xy 363.22 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f3e73dc-9502-4500-88bb-48a3dce7a8d7")
+	)
+	(wire
+		(pts
 			(xy 36.83 50.8) (xy 26.67 50.8)
 		)
 		(stroke
@@ -5682,16 +5878,6 @@
 			(type default)
 		)
 		(uuid "91748be6-3704-4ca8-8c69-223b0a2717c2")
-	)
-	(wire
-		(pts
-			(xy 365.76 60.96) (xy 365.76 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91fff7c2-76da-449e-bca6-657cdab66ad2")
 	)
 	(wire
 		(pts
@@ -5915,6 +6101,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 59.69) (xy 375.92 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcfc28c5-e00e-4cdb-a26f-d21c91919b86")
+	)
+	(wire
+		(pts
 			(xy 138.43 39.37) (xy 139.7 39.37)
 		)
 		(stroke
@@ -6025,6 +6221,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 63.5) (xy 387.35 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc186774-882a-477d-8dd2-9147e1dc64c3")
+	)
+	(wire
+		(pts
 			(xy 300.99 33.02) (xy 303.53 33.02)
 		)
 		(stroke
@@ -6082,6 +6288,16 @@
 			(type default)
 		)
 		(uuid "e5bff277-ab69-4093-9d18-79b3444f95bd")
+	)
+	(wire
+		(pts
+			(xy 402.59 59.69) (xy 402.59 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7bab00a-d9ed-469b-befb-002a9ea1d926")
 	)
 	(wire
 		(pts
@@ -6175,16 +6391,6 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 60.96) (xy 365.76 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f99e842f-c96f-479e-8f20-dd40132f78c8")
-	)
-	(wire
-		(pts
 			(xy 88.9 33.02) (xy 86.36 33.02)
 		)
 		(stroke
@@ -6212,6 +6418,16 @@
 			(type default)
 		)
 		(uuid "ff241bb8-0902-491e-b23b-80e550be13a2")
+	)
+	(wire
+		(pts
+			(xy 387.35 57.15) (xy 387.35 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff6b00e0-eb70-4dad-a687-9997946c5e9e")
 	)
 	(global_label "DEBUG_LPUART_TX"
 		(shape input)
@@ -6610,30 +6826,6 @@
 		(uuid "89fc14b3-834c-4766-a479-870c9e28cb5e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 302.8429 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "IMU_PSO{slash}WAKE_GPIO"
-		(shape output)
-		(at 68.58 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "907a9b62-e08d-4907-90b9-6ed1d4b6f3a6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.6981 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7464,7 +7656,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 295.656 37.084 90)
 			(hide yes)
 			(show_name no)
@@ -9034,7 +9226,7 @@
 				)
 			)
 		)
-		(property "Footprint" "inspirefly:SAMTEC_FTSH-107-01-L-DV-K-A"
+		(property "Footprint" "flightController:SAMTEC_FTSH-107-01-L-DV-K-A"
 			(at 223.52 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -10636,7 +10828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "inspirefly:XTAL_ABS07-32.768KHZ-T"
+		(property "Footprint" "flightController:XTAL_ABS07-32.768KHZ-T"
 			(at 138.43 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -11032,6 +11224,166 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 387.35 52.07 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3686699-7012-4613-aaed-8c4e61bb766c")
+		(property "Reference" "#PWR043"
+			(at 387.35 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 387.35 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 387.35 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 387.35 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 387.35 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30b14432-acf0-4f52-9850-75ecf5c2483a")
+		)
+		(instances
+			(project "inspireFly-flightController"
+				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 387.35 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6bf2821-088c-40ad-9035-45ab09177426")
+		(property "Reference" "C17"
+			(at 389.89 53.3462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22pF"
+			(at 389.89 55.8862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 387.35 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 387.35 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 387.35 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "35de4e99-9b60-4028-ae0c-f9533ebb0157")
+		)
+		(pin "1"
+			(uuid "7ee6e203-fc5d-47b9-90a7-a99fb03b389c")
+		)
+		(instances
+			(project "inspireFly-flightController"
+				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 220.98 29.21 180)
 		(unit 1)
@@ -11351,6 +11703,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 402.59 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb66ddeb-f97a-40c0-b90f-3dd14869776a")
+		(property "Reference" "C18"
+			(at 405.13 54.6162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22pF"
+			(at 405.13 57.1562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 402.59 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 402.59 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 402.59 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e4fcaa1a-1302-4bff-9baf-8a9aa55aa888")
+		)
+		(pin "1"
+			(uuid "fbeafedd-f350-4d14-be23-0749f5e50ba1")
+		)
+		(instances
+			(project "inspireFly-flightController"
+				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 210.82 55.88 90)
 		(unit 1)
@@ -11589,6 +12023,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 402.59 53.34 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d14ad369-b064-43d4-8eb2-0f57951ead8e")
+		(property "Reference" "#PWR034"
+			(at 402.59 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 402.59 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 402.59 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 402.59 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 402.59 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f53f3a93-a45f-4c0e-9599-677284fc91ca")
+		)
+		(instances
+			(project "inspireFly-flightController"
+				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 200.66 36.83 180)
 		(unit 1)
@@ -11818,6 +12330,134 @@
 			(project "inspireFly-flightController"
 				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "flightController:ABS07-32.768KHZ-T")
+		(at 393.7 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e09dfdac-bb49-43fb-97f8-5a8eaafe8bce")
+		(property "Reference" "Y2"
+			(at 401.066 66.548 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ABS07-32.768KHZ-T"
+			(at 394.97 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "flightController:XTAL_ABS07-32.768KHZ-T"
+			(at 393.7 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 393.7 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 393.7 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "08.19.15"
+			(at 393.7 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 393.7 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.9 mm"
+			(at 393.7 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Abracon"
+			(at 393.7 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "cbaaaadc-5903-4d92-a18a-cc8b656edc0a")
+		)
+		(pin "1"
+			(uuid "66ec28e2-2c0e-4083-b0d8-0ada1b123521")
+		)
+		(instances
+			(project "inspireFly-flightController"
+				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
+					(reference "Y2")
 					(unit 1)
 				)
 			)
