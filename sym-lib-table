@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Find Me")(type "KiCad")(uri "${KIPRJMOD}/LR1121IMLTRT.kicad_sym")(options "")(descr ""))
+)
