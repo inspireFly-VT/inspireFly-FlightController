@@ -6119,7 +6119,7 @@
 	)
 	(text "supercaps_B\n\n\n"
 		(exclude_from_sim no)
-		(at 525.78 163.83 0)
+		(at 517.652 161.544 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6182,6 +6182,12 @@
 		(uuid "12495462-f615-4713-a765-973cd9bdddb9")
 	)
 	(junction
+		(at 562.61 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15179535-b1ee-476c-b34a-fa93e26b2034")
+	)
+	(junction
 		(at 532.13 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6218,7 +6224,7 @@
 		(uuid "2445af2c-e471-4be3-bf3d-819bd2655aad")
 	)
 	(junction
-		(at 521.97 35.56)
+		(at 538.48 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24d93853-8be5-4279-914f-80e9b53a2fac")
@@ -6314,7 +6320,7 @@
 		(uuid "85da1bb2-1722-4a46-833f-93296824ca5c")
 	)
 	(junction
-		(at 546.1 35.56)
+		(at 562.61 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88152fad-71aa-4150-ac42-30e5aad47d65")
@@ -6444,12 +6450,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eda2c4f2-5dd8-4331-bfe8-906ace7fd9eb")
-	)
-	(junction
-		(at 558.8 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef0b4097-60a2-4859-a817-7f2806523bc1")
 	)
 	(junction
 		(at 119.38 30.48)
@@ -6659,7 +6659,7 @@
 	)
 	(wire
 		(pts
-			(xy 521.97 24.13) (xy 521.97 26.67)
+			(xy 538.48 24.13) (xy 538.48 26.67)
 		)
 		(stroke
 			(width 0)
@@ -6689,7 +6689,7 @@
 	)
 	(wire
 		(pts
-			(xy 546.1 35.56) (xy 546.1 36.83)
+			(xy 562.61 35.56) (xy 562.61 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6799,6 +6799,16 @@
 	)
 	(wire
 		(pts
+			(xy 472.44 30.48) (xy 472.44 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e46d7fd-347b-44dc-afc7-7e01ea91c225")
+	)
+	(wire
+		(pts
 			(xy 101.6 34.29) (xy 142.24 34.29)
 		)
 		(stroke
@@ -6826,6 +6836,16 @@
 			(type default)
 		)
 		(uuid "317e38a0-2793-404a-930d-deff57568889")
+	)
+	(wire
+		(pts
+			(xy 562.61 68.58) (xy 565.15 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b417032-694f-4b37-a055-454ca8df4b45")
 	)
 	(wire
 		(pts
@@ -6909,7 +6929,7 @@
 	)
 	(wire
 		(pts
-			(xy 546.1 34.29) (xy 546.1 35.56)
+			(xy 562.61 34.29) (xy 562.61 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6979,7 +6999,7 @@
 	)
 	(wire
 		(pts
-			(xy 519.43 58.42) (xy 558.8 58.42)
+			(xy 519.43 58.42) (xy 562.61 58.42)
 		)
 		(stroke
 			(width 0)
@@ -7119,7 +7139,7 @@
 	)
 	(wire
 		(pts
-			(xy 558.8 68.58) (xy 554.99 68.58)
+			(xy 554.99 68.58) (xy 562.61 68.58)
 		)
 		(stroke
 			(width 0)
@@ -7219,16 +7239,6 @@
 	)
 	(wire
 		(pts
-			(xy 558.8 58.42) (xy 558.8 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d53e9a2-ed8d-4f75-a3f3-94ad9287c2ae")
-	)
-	(wire
-		(pts
 			(xy 86.36 21.59) (xy 91.44 21.59)
 		)
 		(stroke
@@ -7239,7 +7249,7 @@
 	)
 	(wire
 		(pts
-			(xy 521.97 34.29) (xy 521.97 35.56)
+			(xy 538.48 34.29) (xy 538.48 35.56)
 		)
 		(stroke
 			(width 0)
@@ -7269,7 +7279,7 @@
 	)
 	(wire
 		(pts
-			(xy 521.97 35.56) (xy 521.97 36.83)
+			(xy 538.48 35.56) (xy 538.48 36.83)
 		)
 		(stroke
 			(width 0)
@@ -7349,6 +7359,16 @@
 	)
 	(wire
 		(pts
+			(xy 473.71 102.87) (xy 473.71 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82847ef6-7445-45bb-a96e-8db7fb59d4af")
+	)
+	(wire
+		(pts
 			(xy 97.79 30.48) (xy 105.41 30.48)
 		)
 		(stroke
@@ -7399,7 +7419,7 @@
 	)
 	(wire
 		(pts
-			(xy 546.1 24.13) (xy 546.1 26.67)
+			(xy 562.61 24.13) (xy 562.61 26.67)
 		)
 		(stroke
 			(width 0)
@@ -7456,16 +7476,6 @@
 			(type default)
 		)
 		(uuid "92d33c5f-d101-4136-b47b-10259ccdd8ce")
-	)
-	(wire
-		(pts
-			(xy 560.07 68.58) (xy 558.8 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93140e20-b899-4fd4-99e4-898ee7c2783b")
 	)
 	(wire
 		(pts
@@ -7839,6 +7849,16 @@
 	)
 	(wire
 		(pts
+			(xy 473.71 105.41) (xy 471.17 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1fb5f8d-f01b-4d00-9b9f-a2e92ee3f9d9")
+	)
+	(wire
+		(pts
 			(xy 105.41 21.59) (xy 113.03 21.59)
 		)
 		(stroke
@@ -7916,6 +7936,16 @@
 			(type default)
 		)
 		(uuid "dcb0f77d-a13b-46b5-91f6-a8aa5a8d2eff")
+	)
+	(wire
+		(pts
+			(xy 469.9 30.48) (xy 472.44 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dce7c980-0b85-42f7-938c-66e3b38e9da8")
 	)
 	(wire
 		(pts
@@ -8069,6 +8099,16 @@
 	)
 	(wire
 		(pts
+			(xy 562.61 58.42) (xy 562.61 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f59b500a-1c5e-455b-bc98-b2bc918b0d1c")
+	)
+	(wire
+		(pts
 			(xy 363.22 66.04) (xy 365.76 66.04)
 		)
 		(stroke
@@ -8127,28 +8167,8 @@
 		)
 		(uuid "ff6b00e0-eb70-4dad-a687-9997946c5e9e")
 	)
-	(label "VRTC_A"
-		(at 449.58 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "13c9bb4f-e13c-4938-b9fe-c4e23e918da6")
-	)
-	(label "VRTC_B"
-		(at 556.26 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "26ba7157-f79c-4b39-a211-e2bc6ecf57f3")
-	)
 	(label "VCAP_A1"
-		(at 521.97 35.56 0)
+		(at 538.48 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8156,16 +8176,6 @@
 			(justify left bottom)
 		)
 		(uuid "26fe2b4d-caf4-4030-96e3-405ff367df78")
-	)
-	(label "VRTC_A"
-		(at 546.1 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2a5a6b90-b7b8-4cc0-b142-2ca83396a1d0")
 	)
 	(label "VCAP_B2"
 		(at 556.26 180.34 0)
@@ -8178,7 +8188,7 @@
 		(uuid "3c9a05d6-e0a4-40d8-b130-a2d6ef10a854")
 	)
 	(label "VCAP_A2"
-		(at 546.1 35.56 0)
+		(at 562.61 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8186,16 +8196,6 @@
 			(justify left bottom)
 		)
 		(uuid "55d411e1-67f3-4105-aee3-6c6f4f9520f8")
-	)
-	(label "VRTC_A"
-		(at 469.9 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "658a30d5-6f6a-4206-b6cb-b90acd4e8dbb")
 	)
 	(label "VCAP_B1"
 		(at 532.13 180.34 0)
@@ -8207,75 +8207,29 @@
 		)
 		(uuid "7354e627-7958-4d9a-b7eb-16fc429cca51")
 	)
-	(label "VRTC_B"
-		(at 450.85 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8936c8ee-ceff-46e8-b1e5-48d5dff1ec42")
-	)
-	(label "VRTC_B"
-		(at 471.17 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "90364984-469f-4d43-9b57-6f83fd6f3c6c")
-	)
-	(label "VRTC_B"
-		(at 566.42 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aded6d7d-4a72-4f47-9b37-762db353e89a")
-	)
-	(label "VRTC_B"
+	(global_label "VRTC_B"
+		(shape input)
 		(at 566.42 120.65 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "b75d2f6e-596c-4e2c-bc02-db82a2fcfb1a")
-	)
-	(label "VRTC_B"
-		(at 532.13 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "049adbc7-5a97-4942-be6f-4969ec28b906")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 576.239 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
-			(justify left bottom)
 		)
-		(uuid "ba8bb9a5-0dae-467d-b349-eabab4b0e9d8")
-	)
-	(label "VRTC_A"
-		(at 521.97 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c3caa801-50a0-4336-b108-eff15e979fed")
-	)
-	(label "VRTC_A"
-		(at 560.07 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e97be59d-98fd-4e1c-950f-9239973946fb")
 	)
 	(global_label "DEBUG_LPUART_TX"
 		(shape input)
@@ -8370,6 +8324,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "VRTC_B"
+		(shape input)
+		(at 566.42 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "237147bd-9176-4331-a173-2a225089e05f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 576.239 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -8506,6 +8484,30 @@
 		(uuid "2e9ce974-40c3-4dbe-b0be-a1b5b9d63347")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 127.5661 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VRTC_B"
+		(shape input)
+		(at 556.26 168.91 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "356a1a80-0da4-4151-bccb-fe00dc9130c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 556.26 159.091 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8709,6 +8711,30 @@
 			)
 		)
 	)
+	(global_label "VRTC_B"
+		(shape input)
+		(at 532.13 168.91 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54ce86e3-4c2b-4454-b66d-9e89fe5a1af4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 532.13 159.091 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "NRST"
 		(shape input)
 		(at 236.22 66.04 0)
@@ -8877,6 +8903,30 @@
 			)
 		)
 	)
+	(global_label "VRTC_A"
+		(shape input)
+		(at 562.61 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77164601-6b15-41c0-83c4-3ba96525944b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 562.61 14.4924 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "RTC_A_SCL"
 		(shape input)
 		(at 430.53 71.12 270)
@@ -8997,6 +9047,30 @@
 			)
 		)
 	)
+	(global_label "VRTC_B"
+		(shape input)
+		(at 473.71 102.87 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aeafb724-0578-4d2e-8c9a-19aa91fe102e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 473.71 93.051 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "RTC_A_SDA"
 		(shape input)
 		(at 438.15 71.12 270)
@@ -9093,6 +9167,30 @@
 			)
 		)
 	)
+	(global_label "VRTC_A"
+		(shape input)
+		(at 472.44 27.94 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b76805ea-3e35-48eb-b61c-b9194dca6073")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 472.44 18.3024 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "RTC_A_INT"
 		(shape input)
 		(at 482.6 45.72 0)
@@ -9154,6 +9252,30 @@
 		(uuid "b7d99385-350d-440b-b879-6c62fc90323c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 251.2399 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VRTC_A"
+		(shape input)
+		(at 565.15 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc4b0115-1f47-4dcc-86ae-4041c189735b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 574.7876 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9306,6 +9428,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "VRTC_A"
+		(shape input)
+		(at 538.48 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c66390ab-bc61-4222-9051-2fc18b479e2a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 538.48 14.4924 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -9708,6 +9854,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 457.2 50.8 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0460a0cb-6837-4926-9a7b-0f072c35c2a6")
+		(property "Reference" "#PWR052"
+			(at 450.85 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 453.39 50.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 457.2 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 457.2 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 457.2 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ff6294d-f9d1-4ac6-bef3-fe092ea03368")
+		)
+		(instances
+			(project "inspireFly-flightController"
+				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "flightController:RV-8803-C7")
 		(at 471.17 123.19 0)
 		(unit 1)
@@ -9717,10 +9942,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "07a85a79-b55e-4141-9120-965d93d689ed")
 		(property "Reference" "U6"
-			(at 473.3133 107.95 0)
+			(at 476.504 110.998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9731,7 +9955,7 @@
 			)
 		)
 		(property "Value" "RV-8803-C7"
-			(at 473.3133 110.49 0)
+			(at 479.552 111.252 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9741,7 +9965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "flightController:RTC_RV-8803-C7"
+		(property "Footprint" "inspirefly:RTC_RV-8803-C7"
 			(at 471.17 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -9968,7 +10192,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 521.97 30.48 180)
+		(at 538.48 30.48 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9978,7 +10202,7 @@
 		(dnp no)
 		(uuid "0a92fdcc-236d-409f-8634-a99f1db5ea25")
 		(property "Reference" "R6"
-			(at 519.938 32.258 90)
+			(at 536.448 32.258 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9988,7 +10212,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 519.938 28.702 90)
+			(at 536.448 28.702 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9998,7 +10222,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 520.954 30.226 90)
+			(at 537.464 30.226 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10009,7 +10233,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 521.97 30.48 0)
+			(at 538.48 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10020,7 +10244,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 521.97 30.48 0)
+			(at 538.48 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10047,7 +10271,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 546.1 30.48 180)
+		(at 562.61 30.48 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10057,7 +10281,7 @@
 		(dnp no)
 		(uuid "0c5f74cb-6596-42bd-888c-fc2f4c02c864")
 		(property "Reference" "R7"
-			(at 544.068 32.258 90)
+			(at 560.578 32.258 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10067,7 +10291,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 544.068 28.702 90)
+			(at 560.578 28.702 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10077,7 +10301,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 545.084 30.226 90)
+			(at 561.594 30.226 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10088,7 +10312,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 546.1 30.48 0)
+			(at 562.61 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10099,7 +10323,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 546.1 30.48 0)
+			(at 562.61 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10119,6 +10343,85 @@
 			(project "inspireFly-flightController"
 				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 458.47 125.73 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1008d349-e187-4c4c-9e47-85963ea82b55")
+		(property "Reference" "#PWR063"
+			(at 452.12 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 454.66 125.7299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 458.47 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 458.47 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 458.47 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a71d7364-dadd-4982-a11e-22f506712d8c")
+		)
+		(instances
+			(project "inspireFly-flightController"
+				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -10204,7 +10507,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 521.97 40.64 0)
+		(at 538.48 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10215,7 +10518,7 @@
 		(fields_autoplaced yes)
 		(uuid "11733a51-2b95-4284-ab70-a967a7d466a6")
 		(property "Reference" "C20"
-			(at 525.78 38.4809 0)
+			(at 542.29 38.4809 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10226,7 +10529,7 @@
 			)
 		)
 		(property "Value" "1.5F"
-			(at 525.78 41.0209 0)
+			(at 542.29 41.0209 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10236,8 +10539,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "flightController:SUPERCAP_KR-5R5H155-R"
-			(at 522.9352 44.45 0)
+		(property "Footprint" "inspirefly:SUPERCAP_KR-5R5H155-R"
+			(at 539.4452 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10248,7 +10551,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 521.97 40.64 0)
+			(at 538.48 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10259,7 +10562,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 521.97 40.64 0)
+			(at 538.48 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11098,7 +11401,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "VRTC_B"
 			(at 480.568 106.426 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13224,7 +13527,7 @@
 				)
 			)
 		)
-		(property "Footprint" "flightController:SAMTEC_FTSH-107-01-L-DV-K-A"
+		(property "Footprint" "inspirefly:SAMTEC_FTSH-107-01-L-DV-K-A"
 			(at 223.52 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -13630,7 +13933,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "RTC_B_ST"
 			(at 568.198 133.096 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14320,7 +14623,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 546.1 35.56 90)
+		(at 562.61 35.56 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14329,8 +14632,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "749172d5-e2e0-42b6-96b2-649435560129")
-		(property "Reference" "TP1"
-			(at 540.004 33.528 90)
+		(property "Reference" "TP2"
+			(at 556.514 33.528 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14339,8 +14642,8 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 540.004 38.608 90)
+		(property "Value" "VCAP_A2"
+			(at 553.72 35.306 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14350,7 +14653,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 546.1 30.48 0)
+			(at 562.61 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14361,7 +14664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 546.1 30.48 0)
+			(at 562.61 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14372,7 +14675,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 546.1 35.56 0)
+			(at 562.61 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14388,7 +14691,7 @@
 		(instances
 			(project "inspireFly-flightController"
 				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
-					(reference "TP1")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -14396,7 +14699,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 546.1 44.45 0)
+		(at 562.61 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14407,7 +14710,7 @@
 		(fields_autoplaced yes)
 		(uuid "767591ea-c825-4b1e-b99b-529d883b3701")
 		(property "Reference" "#PWR038"
-			(at 546.1 50.8 0)
+			(at 562.61 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14418,7 +14721,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 546.1 49.53 0)
+			(at 562.61 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14428,7 +14731,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 546.1 44.45 0)
+			(at 562.61 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14439,7 +14742,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 546.1 44.45 0)
+			(at 562.61 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14450,7 +14753,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 546.1 44.45 0)
+			(at 562.61 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14795,7 +15098,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 546.1 40.64 0)
+		(at 562.61 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14806,7 +15109,7 @@
 		(fields_autoplaced yes)
 		(uuid "802f6535-e158-4245-aa48-9f223e587074")
 		(property "Reference" "C21"
-			(at 549.91 38.4809 0)
+			(at 566.42 38.4809 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14817,7 +15120,7 @@
 			)
 		)
 		(property "Value" "1.5F"
-			(at 549.91 41.0209 0)
+			(at 566.42 41.0209 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14827,8 +15130,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "flightController:SUPERCAP_KR-5R5H155-R"
-			(at 547.0652 44.45 0)
+		(property "Footprint" "inspirefly:SUPERCAP_KR-5R5H155-R"
+			(at 563.5752 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14839,7 +15142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 546.1 40.64 0)
+			(at 562.61 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14850,7 +15153,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 546.1 40.64 0)
+			(at 562.61 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15053,7 +15356,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "VRTC_A"
 			(at 479.298 31.496 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15685,7 +15988,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "RTC_A_ST"
 			(at 553.974 83.058 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15839,8 +16142,8 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 526.034 183.388 90)
+		(property "Value" "VCAP_B1"
+			(at 522.986 181.356 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15970,85 +16273,6 @@
 			(project "inspireFly-flightController"
 				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 454.66 125.73 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "93eca85b-c124-4cfd-9c27-59d863c6ec26")
-		(property "Reference" "R16"
-			(at 452.12 123.19 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 456.438 123.698 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 454.914 124.714 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 454.66 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 454.66 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9b877285-319e-4211-af8f-5c97e523e2e1")
-		)
-		(pin "1"
-			(uuid "a2497863-95af-41c4-95d4-12e281a379e8")
-		)
-		(instances
-			(project "inspireFly-flightController"
-				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
-					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -16400,7 +16624,7 @@
 				)
 			)
 		)
-		(property "Footprint" "flightController:XTAL_ABS07-32.768KHZ-T"
+		(property "Footprint" "inspirefly:XTAL_ABS07-32.768KHZ-T"
 			(at 138.43 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -17115,7 +17339,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 521.97 44.45 0)
+		(at 538.48 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17126,7 +17350,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad6260d4-82ad-4de5-bbaa-caae8cb612ce")
 		(property "Reference" "#PWR037"
-			(at 521.97 50.8 0)
+			(at 538.48 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17137,7 +17361,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 521.97 49.53 0)
+			(at 538.48 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17147,7 +17371,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 521.97 44.45 0)
+			(at 538.48 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17158,7 +17382,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 521.97 44.45 0)
+			(at 538.48 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17169,7 +17393,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 521.97 44.45 0)
+			(at 538.48 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17359,10 +17583,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b1a71a9a-ba9a-4666-9a65-4dd25fc40740")
 		(property "Reference" "U3"
-			(at 472.0433 33.02 0)
+			(at 472.44 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17373,7 +17596,7 @@
 			)
 		)
 		(property "Value" "RV-8803-C7"
-			(at 472.0433 35.56 0)
+			(at 473.71 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17383,7 +17606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "flightController:RTC_RV-8803-C7"
+		(property "Footprint" "inspirefly:RTC_RV-8803-C7"
 			(at 469.9 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -17451,7 +17674,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 521.97 35.56 90)
+		(at 538.48 35.56 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17460,8 +17683,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2a2e20a-e2a2-47cb-a097-a4e81d9e67e3")
-		(property "Reference" "TP2"
-			(at 515.874 33.528 90)
+		(property "Reference" "TP1"
+			(at 532.384 33.528 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17470,8 +17693,8 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 515.874 38.608 90)
+		(property "Value" "VACP_A1"
+			(at 529.336 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17481,7 +17704,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 521.97 30.48 0)
+			(at 538.48 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17492,7 +17715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 521.97 30.48 0)
+			(at 538.48 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17503,7 +17726,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 521.97 35.56 0)
+			(at 538.48 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17519,7 +17742,7 @@
 		(instances
 			(project "inspireFly-flightController"
 				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
-					(reference "TP2")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -18508,7 +18731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "flightController:SUPERCAP_KR-5R5H155-R"
+		(property "Footprint" "inspirefly:SUPERCAP_KR-5R5H155-R"
 			(at 533.0952 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -18588,7 +18811,7 @@
 				)
 			)
 		)
-		(property "Footprint" "flightController:PWRMUX_TPS2117-DRL"
+		(property "Footprint" "inspirefly:PWRMUX_TPS2117-DRL"
 			(at 548.64 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -18925,7 +19148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "flightController:SUPERCAP_KR-5R5H155-R"
+		(property "Footprint" "inspirefly:SUPERCAP_KR-5R5H155-R"
 			(at 557.2252 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -19474,7 +19697,7 @@
 				)
 			)
 		)
-		(property "Footprint" "flightController:XTAL_ABS07-32.768KHZ-T"
+		(property "Footprint" "inspirefly:XTAL_ABS07-32.768KHZ-T"
 			(at 393.7 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -19653,85 +19876,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 453.39 50.8 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e126a9fa-23c7-4d0f-be5b-ba193d148177")
-		(property "Reference" "R2"
-			(at 451.612 48.768 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 455.168 48.768 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 453.644 49.784 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 453.39 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 453.39 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "24e001e6-ce8d-47b0-91f9-e9169462d8ff")
-		)
-		(pin "1"
-			(uuid "785f4750-5ab2-49df-9fcc-24b6a1ae48e0")
-		)
-		(instances
-			(project "inspireFly-flightController"
-				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 82.55 34.29 0)
 		(unit 1)
@@ -19829,8 +19973,8 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 550.164 183.388 90)
+		(property "Value" "VCAP_B2"
+			(at 547.37 180.848 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19975,7 +20119,7 @@
 		(dnp no)
 		(uuid "ea2bea43-6068-4330-8454-75c09846df78")
 		(property "Reference" "C23"
-			(at 528.574 62.992 0)
+			(at 526.542 62.992 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19986,7 +20130,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 528.066 65.024 0)
+			(at 527.304 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
