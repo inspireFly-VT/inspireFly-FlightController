@@ -7372,12 +7372,6 @@
 		(uuid "85da1bb2-1722-4a46-833f-93296824ca5c")
 	)
 	(junction
-		(at 562.61 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88152fad-71aa-4150-ac42-30e5aad47d65")
-	)
-	(junction
 		(at 469.9 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7406,12 +7400,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c11f863-9788-4b0f-b334-5d1b66b0ab88")
-	)
-	(junction
-		(at 556.26 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9dac1eaf-33d2-461e-a605-770de503ebef")
 	)
 	(junction
 		(at 374.65 129.54)
@@ -7779,16 +7767,6 @@
 	)
 	(wire
 		(pts
-			(xy 562.61 35.56) (xy 562.61 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1af5c240-741e-412b-809e-10f900493949")
-	)
-	(wire
-		(pts
 			(xy 119.38 168.91) (xy 152.4 168.91)
 		)
 		(stroke
@@ -7796,16 +7774,6 @@
 			(type default)
 		)
 		(uuid "1b0ec5bb-e489-4d3c-a698-32c7b63711d6")
-	)
-	(wire
-		(pts
-			(xy 556.26 180.34) (xy 556.26 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b0f291a-acb0-41ee-a5d3-204eb548543c")
 	)
 	(wire
 		(pts
@@ -8026,16 +7994,6 @@
 			(type default)
 		)
 		(uuid "44261eb8-e0d3-4685-813c-0eff0dd3c2c5")
-	)
-	(wire
-		(pts
-			(xy 562.61 34.29) (xy 562.61 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45a51e00-65c4-49c6-b9b0-5207819dde0b")
 	)
 	(wire
 		(pts
@@ -8339,16 +8297,6 @@
 	)
 	(wire
 		(pts
-			(xy 556.26 179.07) (xy 556.26 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6afc9609-d49a-47e9-8316-f2a86125c6b6")
-	)
-	(wire
-		(pts
 			(xy 554.99 68.58) (xy 552.45 68.58)
 		)
 		(stroke
@@ -8396,16 +8344,6 @@
 			(type default)
 		)
 		(uuid "6e9e295a-b178-4814-a762-b1cdf3fbcfe0")
-	)
-	(wire
-		(pts
-			(xy 556.26 168.91) (xy 556.26 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6eeae7fb-e10a-4acb-9b0e-4b07e893543c")
 	)
 	(wire
 		(pts
@@ -8556,16 +8494,6 @@
 			(type default)
 		)
 		(uuid "8acee3fe-8196-42ae-a05b-9959e4ee8ea0")
-	)
-	(wire
-		(pts
-			(xy 562.61 24.13) (xy 562.61 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bf74fb1-ef73-4228-ba55-ad5712bb4303")
 	)
 	(wire
 		(pts
@@ -9357,26 +9285,6 @@
 		)
 		(uuid "26fe2b4d-caf4-4030-96e3-405ff367df78")
 	)
-	(label "VCAP_B2"
-		(at 556.26 180.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3c9a05d6-e0a4-40d8-b130-a2d6ef10a854")
-	)
-	(label "VCAP_A2"
-		(at 562.61 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "55d411e1-67f3-4105-aee3-6c6f4f9520f8")
-	)
 	(label "VCAP_B1"
 		(at 532.13 180.34 0)
 		(effects
@@ -9939,30 +9847,6 @@
 			)
 		)
 	)
-	(global_label "VRTC_B"
-		(shape input)
-		(at 556.26 168.91 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "356a1a80-0da4-4151-bccb-fe00dc9130c1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 556.26 159.091 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "H_MDSI_SPI1_MOSI"
 		(shape input)
 		(at 114.3 63.5 0)
@@ -10504,30 +10388,6 @@
 		(uuid "7511287a-d1a1-4f92-a9cc-c233ed5fd87d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 366.8705 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VRTC_A"
-		(shape input)
-		(at 562.61 24.13 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "77164601-6b15-41c0-83c4-3ba96525944b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 562.61 14.4924 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12322,85 +12182,6 @@
 			(project "inspireFly-flightController"
 				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 562.61 30.48 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0c5f74cb-6596-42bd-888c-fc2f4c02c864")
-		(property "Reference" "R7"
-			(at 560.578 32.258 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 560.578 28.702 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 561.594 30.226 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 562.61 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 562.61 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "77f35a62-6724-414e-ac6f-62d58df63152")
-		)
-		(pin "1"
-			(uuid "afed1704-da94-439e-9c60-a6a7270b9b76")
-		)
-		(instances
-			(project "inspireFly-flightController"
-				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -15646,85 +15427,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 556.26 175.26 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "53f5058c-628f-4aba-81de-038dd43d465a")
-		(property "Reference" "R18"
-			(at 554.228 177.038 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 554.228 172.72 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 555.244 175.006 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 556.26 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 556.26 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1d59fc0a-3dcc-4af9-9907-834217a47360")
-		)
-		(pin "1"
-			(uuid "3418ab46-635f-41ed-a57e-4bdc97fd31a0")
-		)
-		(instances
-			(project "inspireFly-flightController"
-				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 212.09 29.21 270)
 		(unit 1)
@@ -16931,84 +16633,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 556.26 189.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6477fdd1-462a-4b98-856e-25704304d442")
-		(property "Reference" "#PWR062"
-			(at 556.26 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 556.26 194.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 556.26 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 556.26 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 556.26 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ba47d101-690e-4fd7-b85f-74e5f29f8763")
-		)
-		(instances
-			(project "inspireFly-flightController"
-				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
-					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 558.8 142.24 180)
 		(unit 1)
@@ -17565,82 +17189,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 562.61 35.56 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "749172d5-e2e0-42b6-96b2-649435560129")
-		(property "Reference" "TP2"
-			(at 556.514 33.528 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCAP_A2"
-			(at 553.72 35.306 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 562.61 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 562.61 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 562.61 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bfded1e0-7978-4c5d-bd22-d5c51d99dcae")
-		)
-		(instances
-			(project "inspireFly-flightController"
-				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 359.41 101.6 90)
 		(unit 1)
@@ -17714,84 +17262,6 @@
 			(project "inspireFly-flightController"
 				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
 					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 562.61 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "767591ea-c825-4b1e-b99b-529d883b3701")
-		(property "Reference" "#PWR038"
-			(at 562.61 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 562.61 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 562.61 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 562.61 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 562.61 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cb2a1eb7-1e7d-430d-b909-ad20c7a02889")
-		)
-		(instances
-			(project "inspireFly-flightController"
-				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -18192,88 +17662,6 @@
 			(project "inspireFly-flightController"
 				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 562.61 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "802f6535-e158-4245-aa48-9f223e587074")
-		(property "Reference" "C21"
-			(at 566.42 38.4809 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.5F"
-			(at 566.42 41.0209 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "inspirefly:SUPERCAP_KR-5R5H155-R"
-			(at 563.5752 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 562.61 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 562.61 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6aca54dd-02f5-4c99-b6ba-0dd98e67bdba")
-		)
-		(pin "2"
-			(uuid "c5dd0838-1666-4625-9636-faef25185bb5")
-		)
-		(instances
-			(project "inspireFly-flightController"
-				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
-					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -21172,7 +20560,7 @@
 				)
 			)
 		)
-		(property "Value" "VACP_A1"
+		(property "Value" "VCAP_A1"
 			(at 529.336 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22674,88 +22062,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 556.26 185.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d952b862-2e67-4b36-9736-14121c9d3d21")
-		(property "Reference" "C31"
-			(at 560.07 183.2609 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.5F"
-			(at 560.07 185.8009 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "inspirefly:SUPERCAP_KR-5R5H155-R"
-			(at 557.2252 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 556.26 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 556.26 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "261bfb31-a24c-4489-b93a-e467b061a183")
-		)
-		(pin "2"
-			(uuid "13514ef7-e561-4223-b959-eaa272379c7e")
-		)
-		(instances
-			(project "inspireFly-flightController"
-				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
-					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 200.66 36.83 180)
 		(unit 1)
@@ -23506,82 +22812,6 @@
 			(project "inspireFly-flightController"
 				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 556.26 180.34 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e2590af2-045b-4d36-97f1-9383e3499ec3")
-		(property "Reference" "TP8"
-			(at 550.164 178.308 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCAP_B2"
-			(at 547.37 180.848 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 556.26 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 556.26 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 556.26 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b1778cb8-ddee-4298-832a-0eaf89654ef3")
-		)
-		(instances
-			(project "inspireFly-flightController"
-				(path "/7e6c7bc0-1a4e-437f-8207-dca0e7985164"
-					(reference "TP8")
 					(unit 1)
 				)
 			)
