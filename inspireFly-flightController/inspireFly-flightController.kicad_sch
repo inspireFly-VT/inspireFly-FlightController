@@ -20784,7 +20784,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSOPI48_MAC"
+		(property "Footprint" "Flash_Storage:TSOPI48_MAC"
 			(at 318.77 101.6 0)
 			(hide yes)
 			(show_name no)
