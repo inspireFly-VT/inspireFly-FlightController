@@ -11,8 +11,8 @@ Remember to remove your 'LOCK' when done and ensure that push has relevant comme
 
 
 FILE: boardName.kicad_pcb , schematicName.kicad_sch
-LOCKED BY: David Wang (davidw24)
-START: 11/7 1:55
-STATUS: WDT
+LOCKED BY: 
+START: 
+STATUS: 
 
 Remember to remove your 'LOCK' when done and ensure that push has relevant comments to actions done.
