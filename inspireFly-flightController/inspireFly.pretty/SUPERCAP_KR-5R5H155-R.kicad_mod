@@ -1,0 +1,210 @@
+(footprint "SUPERCAP_KR-5R5H155-R"
+	(version 20240108)
+	(generator "manual")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Eaton KR-5R5H155-R supercapacitor, 1.5F 5.5V, H-type horizontal coin cell. Body 19.0mm dia, 6.7mm max height. 20.0mm lead pitch +/-0.5, leads 1.0 x 0.2mm. Drill enlarged to 1.7mm from datasheet-recommended 1.4mm to absorb the +/-0.5mm pitch tolerance. POLARIZED - pad 1 is positive. Requires structural staking for vibration.")
+	(tags "supercapacitor EDLC eaton KR horizontal through-hole rtc backup polarized")
+	(attr through_hole)
+	(property "Reference" "C**"
+		(at 0 -11.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b7e41a20-5c31-4f88-9a10-000000000001")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KR-5R5H155-R"
+		(at 0 11.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b7e41a20-5c31-4f88-9a10-000000000002")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.eaton.com/us/en-us/catalog/electronic-components/kr-supercapacitor.html"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7e41a20-5c31-4f88-9a10-000000000003")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Supercapacitor 1.5F 5.5V horizontal coin cell, 20mm lead pitch, through-hole"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7e41a20-5c31-4f88-9a10-000000000004")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b7e41a20-5c31-4f88-9a10-000000000005")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_arc
+		(start 8.3 -4.62)
+		(mid 0 -9.5)
+		(end -8.3 -4.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7e41a20-5c31-4f88-9a10-000000000010")
+	)
+	(fp_arc
+		(start -8.3 4.62)
+		(mid 0 9.5)
+		(end 8.3 4.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7e41a20-5c31-4f88-9a10-000000000011")
+	)
+	(fp_line
+		(start -10.6 -4)
+		(end -9.4 -4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7e41a20-5c31-4f88-9a10-000000000012")
+	)
+	(fp_line
+		(start -10 -4.6)
+		(end -10 -3.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7e41a20-5c31-4f88-9a10-000000000013")
+	)
+	(fp_arc
+		(start 9.5 0)
+		(mid 0 -9.5)
+		(end -9.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b7e41a20-5c31-4f88-9a10-000000000020")
+	)
+	(fp_arc
+		(start -9.5 0)
+		(mid 0 9.5)
+		(end 9.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b7e41a20-5c31-4f88-9a10-000000000021")
+	)
+	(fp_line
+		(start -8.6 -1.5)
+		(end -7.4 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b7e41a20-5c31-4f88-9a10-000000000022")
+	)
+	(fp_line
+		(start -8 -2.1)
+		(end -8 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b7e41a20-5c31-4f88-9a10-000000000023")
+	)
+	(fp_line
+		(start -11.75 -9.75)
+		(end 11.75 -9.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b7e41a20-5c31-4f88-9a10-000000000030")
+	)
+	(fp_line
+		(start 11.75 -9.75)
+		(end 11.75 9.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b7e41a20-5c31-4f88-9a10-000000000031")
+	)
+	(fp_line
+		(start 11.75 9.75)
+		(end -11.75 9.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b7e41a20-5c31-4f88-9a10-000000000032")
+	)
+	(fp_line
+		(start -11.75 9.75)
+		(end -11.75 -9.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b7e41a20-5c31-4f88-9a10-000000000033")
+	)
+	(pad "1" thru_hole rect
+		(at -10 0)
+		(size 3 3)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b7e41a20-5c31-4f88-9a10-000000000040")
+	)
+	(pad "2" thru_hole circle
+		(at 10 0)
+		(size 3 3)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b7e41a20-5c31-4f88-9a10-000000000041")
+	)
+)

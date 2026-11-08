@@ -1,0 +1,227 @@
+(footprint "RTC_RV-8803-C7"
+	(version 20240108)
+	(generator "manual")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Micro Crystal RV-8803-C7 RTC module, C7 package (SON-8), 3.2 x 1.5 x 0.8mm. Land pattern per datasheet Recommended Solder Pad: 0.9mm pitch, 0.5 x 0.8mm pads, 0.4mm row gap, 3.2 x 2.0mm overall. Hermetically sealed ceramic, metal lid connected to VSS (pin 5).")
+	(tags "rtc real-time-clock i2c son-8 c7 micro-crystal dtcxo")
+	(attr smd)
+	(property "Reference" "U**"
+		(at 0 -2.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c4d92f10-8a67-4b23-91e5-000000000001")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "RV-8803-C7"
+		(at 0 2.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c4d92f10-8a67-4b23-91e5-000000000002")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-8803-C7.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4d92f10-8a67-4b23-91e5-000000000003")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "RTC module I2C, SON-8 C7 package 3.2 x 1.5 x 0.8mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4d92f10-8a67-4b23-91e5-000000000004")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c4d92f10-8a67-4b23-91e5-000000000005")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(fp_circle
+		(center -2 -0.6)
+		(end -1.85 -0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "c4d92f10-8a67-4b23-91e5-000000000010")
+	)
+	(fp_line
+		(start -1.6 -0.35)
+		(end -1.2 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c4d92f10-8a67-4b23-91e5-000000000020")
+	)
+	(fp_line
+		(start -1.2 -0.75)
+		(end 1.6 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c4d92f10-8a67-4b23-91e5-000000000021")
+	)
+	(fp_line
+		(start 1.6 -0.75)
+		(end 1.6 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c4d92f10-8a67-4b23-91e5-000000000022")
+	)
+	(fp_line
+		(start 1.6 0.75)
+		(end -1.6 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c4d92f10-8a67-4b23-91e5-000000000023")
+	)
+	(fp_line
+		(start -1.6 0.75)
+		(end -1.6 -0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c4d92f10-8a67-4b23-91e5-000000000024")
+	)
+	(fp_line
+		(start -1.85 -1.25)
+		(end 1.85 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c4d92f10-8a67-4b23-91e5-000000000030")
+	)
+	(fp_line
+		(start 1.85 -1.25)
+		(end 1.85 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c4d92f10-8a67-4b23-91e5-000000000031")
+	)
+	(fp_line
+		(start 1.85 1.25)
+		(end -1.85 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c4d92f10-8a67-4b23-91e5-000000000032")
+	)
+	(fp_line
+		(start -1.85 1.25)
+		(end -1.85 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c4d92f10-8a67-4b23-91e5-000000000033")
+	)
+	(pad "1" smd roundrect
+		(at -1.35 -0.6)
+		(size 0.5 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "c4d92f10-8a67-4b23-91e5-000000000041")
+	)
+	(pad "2" smd roundrect
+		(at -0.45 -0.6)
+		(size 0.5 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "c4d92f10-8a67-4b23-91e5-000000000042")
+	)
+	(pad "3" smd roundrect
+		(at 0.45 -0.6)
+		(size 0.5 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "c4d92f10-8a67-4b23-91e5-000000000043")
+	)
+	(pad "4" smd roundrect
+		(at 1.35 -0.6)
+		(size 0.5 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "c4d92f10-8a67-4b23-91e5-000000000044")
+	)
+	(pad "5" smd roundrect
+		(at 1.35 0.6)
+		(size 0.5 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "c4d92f10-8a67-4b23-91e5-000000000045")
+	)
+	(pad "6" smd roundrect
+		(at 0.45 0.6)
+		(size 0.5 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "c4d92f10-8a67-4b23-91e5-000000000046")
+	)
+	(pad "7" smd roundrect
+		(at -0.45 0.6)
+		(size 0.5 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "c4d92f10-8a67-4b23-91e5-000000000047")
+	)
+	(pad "8" smd roundrect
+		(at -1.35 0.6)
+		(size 0.5 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "c4d92f10-8a67-4b23-91e5-000000000048")
+	)
+)
