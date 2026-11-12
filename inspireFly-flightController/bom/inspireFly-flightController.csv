@@ -1,0 +1,33 @@
+"","Sourced","Placed","References","Value","Footprint","Quantity"
+1,"","","C3, C4, C5, C6, C8, C9, C10, C12, C15, C16, C22, C26, C32, C33, C35","100nF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",15
+2,"","","C7, C11, C23, C24, C25, C27, C28","1uF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",7
+3,"","","C13, C14","22pF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",2
+4,"","","C17, C18","18pF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",2
+5,"","","C19, C29","10nF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",2
+6,"","","C20, C30","1.5F","SUPERCAP_KR-5R5H155-R",2
+7,"","","C1","4.7uF","C_0603_1608Metric",1
+8,"","","C2","10uF","C_0603_1608Metric",1
+9,"","","C31","2.2nF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",1
+10,"","","C34","22nF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",1
+11,"","","R1, R3, R4, R5, R10, R13, R14, R15, R18, R20, R37, R38, R40","10K","R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",13
+12,"","","R6, R16, R17, R19, R39","4.7k","R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",5
+13,"","","R8, R11, R12","100k","R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",3
+14,"","","R9","150k","R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",1
+15,"","","U3, U6","RV-8803-C7","RTC_RV-8803-C7",2
+16,"","","U1","STM32U595VJT6","LQFP-100_14x14mm_P0.5mm",1
+17,"","","U2","BNO086","BNO086",1
+18,"","","U4","LM66100DCK","SOT-363_SC-70-6",1
+19,"","","U5","TPS2117","PWRMUX_TPS2117-DRL",1
+20,"","","U7","MX60LF8G28AD-TI","TSOPI48_MAC",1
+21,"","","U8","S-19400G28A-K8T2U4","TMSOP-8",1
+22,"","","Y1","ABS07-32.768KHZ-T","XTAL_ABS07-32.768KHZ-T",1
+23,"","","Y2","32.768KHZ","XTAL_ABS07-32.768KHZ-T",1
+24,"","","SW1, SW3","SW_Push","SW_TL1015AF160QG",2
+25,"","","TP1","VACP_A1","TestPoint_Pad_D1.5mm",1
+26,"","","TP3","VRTC_A","TestPoint_Pad_D1.5mm",1
+27,"","","TP4","RTC_A_ST","TestPoint_Pad_D1.5mm",1
+28,"","","TP5","RTC_B_ST","TestPoint_Pad_D1.5mm",1
+29,"","","TP6","VRTC_B","TestPoint_Pad_D1.5mm",1
+30,"","","TP7","VCAP_B1","TestPoint_Pad_D1.5mm",1
+31,"","","J1","FTSH-107-01-L-DV-K-A","SAMTEC_FTSH-107-01-L-DV-K-A",1
+32,"","","J2","Conn_01x05","PinSocket_1x05_P2.54mm_Vertical",1
